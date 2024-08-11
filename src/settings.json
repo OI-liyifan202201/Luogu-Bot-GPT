@@ -1,7 +1,7 @@
 {
     "_uid": 661094,
-    "__client_id": "19f36bfe0dcef2d066b86b4e9c3500eb4661b4ac",
-    "ai-key": "sk-sLUVtvFrlmzGZu1ZE3F4D2462dFe48Bc9f3c9aFd000dE701",
+    "__client_id": "19f36bfxxxxxxxxxxxx",
+    "ai-key": "sk-xxxxxxxxxxxxxxxxxxxxxxxx",
     "max_token": 4096,
     "command": {
         ":on": "~ 已开启自动回复",
