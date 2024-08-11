@@ -1,6 +1,6 @@
 # Luogu-Bot
 
-基于洛谷的机器人。
+## 基于[CodingOIer](https://github.com/CodingOIer/Luogu-Bot)的洛谷的机器人。
 
 <br />
 
@@ -15,11 +15,11 @@
     <a href="https://github.com/CodingOIer/Luogu-Bot"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://www.luogu.com.cn/chat?uid=754324">查看 Demo</a>
+    <a href="https://www.luogu.com.cn/chat?uid=661094">查看 Demo</a>
     ·
-    <a href="https://github.com/CodingOIer/Luogu-Bot/issues">报告 Bug</a>
+    <a href="https://github.com/Github-liyifan202201/Luogu-Bot-GPT/issues">报告 Bug</a>
     ·
-    <a href="https://github.com/CodingOIer/Luogu-Bot/issues">提出新特性</a>
+    <a href="https://github.com/Github-liyifan202201/Luogu-Bot-GPT/issues">提出新特性</a>
   </p>
 
 </p>
@@ -28,6 +28,8 @@
  本篇 README.md 面向开发者
 
 ### 上手指南
+
+你也可以看看发行版本的自动安装脚本
 
 ###### 开发前的配置要求
 
@@ -38,31 +40,25 @@
 
 1. 准备一台云服务器。
 
-2. 获取一个 DeepSeek API Key。（[DeepSeek 开放平台](https://platform.deepseek.com)）
-
 3. 克隆本仓库。
 
-   ```shell
-   git clone https://github.com/CodingOIer/Luogu-Bot.git
-   cd Luogu-Bot/src
-   ```
 
 4. 编写 `settings.json` 形如：
 
    ```json
    {
-       "_uid": 754324,
-       "__client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-       "deepseek-key": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-       "max_token": 4096,
-       "command": {
-           ":on": "~ 已开启自动回复",
-           ":off": "~ 已关闭自动回复",
-           ":clear": "~ 已清除上下文",
-           ":help": "~ 帮助文档位于 https://luogu.codingoier.work/bot/help.pdf"
-       },
-       "tips": "你好 {username}，我是 {root}，我现在在信息学社区洛谷和你进行对话，我会保持必要的礼节，适当的拒绝不必要的请求。"
-   }
+    "_uid": 661094,
+    "__client_id": "xxx",
+    "ai-key": "sk-xxx",
+    "max_token": 4096,
+    "command": {
+        ":on": "~ 已开启自动回复",
+        ":off": "~ 已关闭自动回复",
+        ":clear": "~ 已清除上下文",
+        ":help": "~ 帮助文档位于 https://luogu.codingoier.work/bot/help.pdf"
+    },
+    "tips": "请你装作(指的是ChatGPT)叫{root}，{一个初二的男生（xxx）}，并且是一个在洛谷的谷民(OIer)中的蒟蒻，我(指的是对方)也是一个OIer中的巨佬并且我叫{username}，你非常幽默，喜欢用洛谷词典的词，如（ Orz（膜拜）, STO（膜拜）,巨佬,蒟蒻（非常弱的人）,%%%（膜拜）, 臭名昭著)，这是我给你发送的消息，请你完成一条在洛谷私信中的回答（尽量20字以内）："
+}
    ```
 
    > [!TIP]
@@ -77,27 +73,17 @@
 
    
 
-### 部署
-
-暂无
-
-### 使用到的框架
-
-暂无
-
 #### 如何参与开源项目
 
-目前本项目仍处于开发初期，所以暂时不接受 PR，但是你可以提出 issue。
+~~目前本项目仍处于开发初期，所以暂时不接受 PR，但是你可以提出 issue。~~
 
-### 版本控制
 
-该项目使用 `Git` 进行版本管理。您可以在 `repository` 参看当前可用版本。
 
 ### 作者
 
-wanghongtiancodingoier@outlook.com
+原作者：CodingOIer 
 
-洛谷：[CodingOIer](https://www.luogu.com.cn/)
+改本作者：liyifan202201
 
  *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
