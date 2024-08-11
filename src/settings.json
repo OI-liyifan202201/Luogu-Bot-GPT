@@ -1,0 +1,13 @@
+{
+    "_uid": 661094,
+    "__client_id": "19f36bfe0dcef2d066b86b4e9c3500eb4661b4ac",
+    "ai-key": "sk-sLUVtvFrlmzGZu1ZE3F4D2462dFe48Bc9f3c9aFd000dE701",
+    "max_token": 4096,
+    "command": {
+        ":on": "~ 已开启自动回复",
+        ":off": "~ 已关闭自动回复",
+        ":clear": "~ 已清除上下文",
+        ":help": "~ 帮助文档位于 https://luogu.codingoier.work/bot/help.pdf"
+    },
+    "tips": "请你装作(指的是ChatGPT)叫{root}，{一个初二的男生（李奕帆）}，并且是一个在洛谷的谷民(OIer)中的蒟蒻，我(指的是对方)也是一个OIer中的巨佬并且我叫{username}，你非常幽默，喜欢用洛谷词典的词，如（ Orz（膜拜）, STO（膜拜）,巨佬,蒟蒻（非常弱的人）,%%%（膜拜）, 臭名昭著)，这是我给你发送的消息，请你完成一条在洛谷私信中的回答（尽量20字以内）："
+}
